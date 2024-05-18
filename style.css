@@ -1,0 +1,332 @@
+/*@media screen and (min-width:1884px)*/
+
+header{
+    overflow: hidden;
+    background: url("image/hero_desktop.webp");
+    max-width: 100%;
+    background-size: 100%;
+    top:-85px;
+    position: relative;
+    height:80vh;
+    margin:0;
+    background-repeat: no-repeat;
+    }
+header img{
+        position:static;
+        top: 0vh;
+        z-index:-1;
+        width: 10px;
+        padding-top: 150px;
+        padding-left: 100px;
+    }
+body{
+    margin:0;
+}
+
+.logo{
+    position:  relative;
+    top:-150px;
+    right: -600px;
+    margin-top: var(--usage-space-large);
+    margin-bottom: var(--usage-space-large);
+    justify-content: center;
+    
+}
+.logo img{
+    width:400px;
+
+}
+h2{
+    color:white;
+    font-size: 40px;
+    font-weight: 100px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    right: 260px;
+    word-spacing: 5px;
+}
+.banner img{
+    max-width: 100%;
+    
+}
+.banner .welcome{
+    position:absolute;
+    left: 800px;
+    bottom:500px;
+}
+.forms{
+    position: relative;
+    right: 100px;
+    display: flex;
+    background-color: white;
+    height:50px;
+    width: 400px;
+    padding:2px;
+    align-items: center;
+    border-radius: 60px;
+    cursor:pointer;
+    font-weight: normal;
+}
+.forms i{
+    font-size: 80px;
+
+}
+.forms > input{
+    flex:1;
+    height: 24;
+    border: none;
+    outline:none;
+    font-size: 15px;
+    margin-left: 50px;
+    font-weight: 550;
+    font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont,
+     "Segoe UI", Roboto, Helvetica, Arial, sans-serif, 
+     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.forms img{
+    width: 25px;
+    position: absolute;
+    margin-left: 20px;
+}
+.arrow img{
+    width: 25px;
+    position: relative;
+    margin: 0 20px ;
+}
+.buttons{
+    padding: 20px 30px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.buttons button{
+    padding:10px 30px;
+    background: white;
+    border:0;
+    outline:none;
+    border-radius: 20px;
+    margin:0 -30px;
+    cursor: pointer;
+}
+.user{
+    font-size: 20px;
+    margin-right: 20px;
+    position: relative;
+    font-weight: 600;
+}
+.buttons .user i{
+    position: absolute;
+    z-index: 1;
+    margin: 11px;
+    margin-left: -16px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #000;
+}
+.nav-button .btn{
+    position: fixed;
+    top: 0;
+    right:145px;
+    width:90px;
+    height:40px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.04ch;
+    color: white;
+    background-color: #e64141;
+    border:none;
+    border-radius: 24px;
+    cursor: pointer;
+    transition: .3s ease;   
+}
+.nav-button .orbtn{
+    position: fixed;
+    top: 0;
+    right:50px;
+    width:90px;
+    height:40px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.04ch;
+    background-color: white;
+    border:none;
+    border-radius: 24px;
+    cursor: pointer;
+    padding: 10px;  
+}
+.btn:hover{
+    background:rgb(187, 20, 54) ;
+}
+.dasher{
+    min-width: 1184px;
+    padding: 50px 300px;
+    margin:10px 150px;
+    box-sizing: border-box;
+}
+.dasher .d-dash{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: calc(var(--usage-space-xxx-large) * 2) 0;
+}
+.dasher .d-dash .image img{
+    width: 50%;
+}
+.dasher .image h2{
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    padding: 0 0 0 20px;
+    margin-left: 80px;
+    margin-top: 0;
+    transform: translateX(135px);
+}
+.dasher .image h3{
+    font-size: 18px;
+    text-align: center;
+    justify-content: center;
+    padding-right:120px ;
+    margin-left: -30px;
+    font-weight: 100;
+    font-family:var(--usage-type-label-large-default-font-family),
+     -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, 
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.dasher .image button{
+    justify-content: center;
+    text-align: center;
+    cursor:pointer;
+}
+.dasher .image .btn{
+    border: 0;
+    padding: 0 20px;
+    margin: var(--usage-space-small) 0 0 0;
+    outline: 0px;
+    background-color: transparent;
+    color: #f30e0e;
+    display: flex;    
+    font-size: 15px;
+    font-weight: 700;
+}
+.dasher .image i{
+    color: #f30e0e;
+    margin-left: 140px;
+}
+.dasher .image .arrow{
+    top: 300px;
+}
+.food-image1 .images img{
+    float: right;
+    width: 50%;
+}
+.food-images-1 .images{
+    display: flex;
+    width: 80%;
+    left:5%;
+    top: 145%;
+    padding: 0 50px;
+}
+.food-images-1 .images .content{
+    padding: 0;
+    text-align: left;
+}
+.food-images-1 .images .content h2{
+    font-size: 40px;
+    text-align: left;
+    color: #000000;
+    left: 40px;
+    padding:5px 0;
+    margin-top: 130px;
+    margin-left: 230px;
+       
+}
+.food-images-1 .images .content {
+    padding: 20px;
+}
+.food-images-1 .images .content h3{
+    font-size: 20px; 
+    margin-left: 270px;
+    margin-top: -10px;
+    color: #191919ff;
+    font-family: var(--usage-type-title-large-font-family), -apple-system, BlinkMacSystemFont,
+     "Segoe UI", Roboto, Helvetica, Arial, sans-serif, 
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.food-images-1 .images .content p{
+    margin-left: 250px;
+    font-size: 18px;
+    margin-top: -10px;
+    padding: 10px 20px;
+    text-align: left;
+    font-family: var(--usage-type-body-medium-default-font-family), 
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, 
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; 
+}
+.food-images-1 .images .content button{
+    margin-left: 270px;
+    background-color: #f30e0e;
+    outline: none;
+    border: none;
+    width: 20%;
+    height: 40px;
+    border-radius: 500px;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 15px;
+    padding: 10px 10px;
+}
+.food-images-2 .images{
+    display: flex;
+    background: #fbf5fc; 
+    margin-top: -40px;
+    padding: 50px 160px;
+}
+.food-images-2 .images h2{      
+    font-size:38px;
+    text-align: left;
+    color: #000000;
+    padding:5px 140px 10px 20px;
+    margin-top: 130px;
+    margin-left: 0;
+    left: 2px;
+}
+.food-images-2 .images img{
+    width: 48%;
+   margin-left:140px;
+   padding: 30px ;
+}
+.food-images-2 .images p{
+    font-size: 18px;
+    margin-top: -10px;
+    padding: 10px 20px;
+    text-align: left;
+    font-family: var(--usage-type-body-medium-default-font-family), 
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, 
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; 
+}
+.food-images-2 .images button{
+    margin-left: 20px;
+    background-color: #f30e0e;
+    outline: none;
+    border: none;
+    width: 25%;
+    height: 40px;
+    border-radius: 500px;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 15px;
+    padding: 10px 10px;
+}
+.food-images .images{
+    background: url("https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/grocery_desktop.png");
+    background-size: cover;
+    width: 100%;
+    padding: 100px;
+    overflow: hidden;
+    background-size: 100%;
+}
